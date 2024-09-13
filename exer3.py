@@ -21,54 +21,14 @@
 # 	return 0;
 # }
 
-print(10*'-', "TABUADA", 10*'-')
+print(10*'-', "TABUADA", 10*'-', '\n')
 
-for i in range(10):
-    print(i , ' X ', 1, ' = ', i*1)
 
-print(30*'-')
+for i in range(1, 11):
+    print("( ",i, " )")
+    for j in range(1, 11):
+        
+        print(i , ' X ', j, ' = ', i*j)
+        
+    print(30*'-')
 
-for i in range(10):
-    print(i , ' X ', 2, ' = ', i*2)
-
-print(30*'-')
-
-for i in range(10):
-    print(i , ' X ', 3, ' = ', i*3)
-
-print(30*'-')
-
-for i in range(10):
-    print(i , ' X ', 4, ' = ', i*4)
-
-print(30*'-')
-
-for i in range(10):
-    print(i , ' X ', 5, ' = ', i*5)
-
-print(30*'-')
-
-for i in range(10):
-    print(i , ' X ', 6, ' = ', i*6)
-
-print(30*'-')
-
-for i in range(10):
-    print(i , ' X ', 7, ' = ', i*7)
-
-print(30*'-')
-
-for i in range(10):
-    print(i , ' X ', 8, ' = ', i*8)
-
-print(30*'-')
-
-for i in range(10):
-    print(i , ' X ', 9, ' = ', i*9)
-
-print(30*'-')
-
-for i in range(10):
-    print(i , ' X ', 10, ' = ', i*10)
-
-print(30*'-')
